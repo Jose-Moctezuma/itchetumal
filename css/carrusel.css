@@ -63,22 +63,22 @@
 }
 
 .one-time .slick-dots li {
-	width: 8px;
-	height: 8px;
-	margin: 0 2px;
+	width: 10px;
+	height: 10px;
+	margin: 0 8px;
 }
 
 .one-time .slick-dots li button {
-	width: 8px;
-	height: 8px;
+	width: 10px;
+	height: 10px;
 	padding: 0;
 }
 
 .one-time .slick-dots li button:before {
-	font-size: 6px;
-	width: 8px;
-	height: 8px;
-	line-height: 8px;
+	font-size: 10px;
+	width: 10px;
+	height: 10px;
+	line-height: 10px;
 	color: #1B396A;
 	opacity: 0.6;
 }
