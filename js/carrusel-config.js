@@ -1,13 +1,13 @@
 $(document).ready(function () {
 
 	$('.one-time').slick({
-		dots: true,
+		dots: false,
 		infinite: true,
 		speed: 500,
 		slidesToShow: 1,
 		autoplay: true,
 		autoplaySpeed: 6000,
-		arrows: false,
+		arrows: true,
 		fade: true,
 		cssEase: 'linear',
 		pauseOnHover: true
