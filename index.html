@@ -1,0 +1,797 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+  <head>
+	<!-- Accesibilidad -->
+	<link href="https://framework-gb.cdn.gob.mx/gm/accesibilidad/css/gobmx-accesibilidad.min.css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<title>Plantilla TecNM | Prueba 1 - Residencias Profesionales </title>
+	<meta name="author" content="TecNM">
+	<meta name="description" content="Plantilla para página del Tecnológico Nacional de México">
+	<meta name="keywords" content="TecNM, Instituto Tecnológico Nacional de México, Tec, Tecnológico Nacional de México" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+	<meta name="copyright" content="TecNM" />
+	<meta name="robots" content="ALL">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="icon" href="img/favicon/tecnm.ico" />
+	
+	<!-- CSS Bootstrap -->
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+		
+	<!-- Mis estilos -->
+	<link rel="stylesheet" href="css/estilos.css">
+	
+	<!-- Iconos con Font Awesome -->
+	<link rel="stylesheet" href="assets/files/main/css/fa-svg-with-js.css">
+	<link rel="stylesheet" href="iconos/iconos.css">
+	
+	<!-- Para poder usar las fuentes en el css -->
+    <link rel="stylesheet" href="assets/files/main/css/estilo-compresion.min.css"> 
+    <link rel="stylesheet" href="assets/files/main/css/jssorStyle.css">  
+		
+    <link href="css/noticarrusel/slick-theme.css" rel="stylesheet" />
+    <link href="css/noticarrusel/slick.css" rel="stylesheet" />
+
+	<!-- Estilo del carrucel -->
+	<link rel="stylesheet" href="css/carrusel.css">
+
+	<!-- jQuery local (única instancia) -->
+	<script src="assets/web/assets/jquery/jquery.min.js"></script>
+
+	<!-- Desface -->
+	<script src="js/desface.js"></script>
+	
+	<!-- Sub Menú -->
+	<link rel="stylesheet" href="css/bootnavbar.css">
+	
+	<!-- Menú Fijo (estilos en css/bootnavbar.css) -->
+
+	<script src="js/menu-fijo.js"></script>
+	
+	<!-- Traductor -->
+	<script src="js/traductor.js"></script>
+	<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
+	
+  </head>
+
+  <body>
+
+	<!-- Widget de Google Translate (oculto, necesario para la traducción automática) -->
+	<div id="google_translate_element" style="display:none"></div>
+
+	<div class='contenido' style='width: 100%; max-width: 1900px; margin: auto;'></div>
+	
+	<!-- MENU GOBERNACIÓN -->
+		<nav class="navbar navbar-expand fixed-top" id="barraGobmx">
+
+			<a class="navbar-brand" href="https://www.gob.mx/" target="_blank">
+				<img src="https://framework-gb.cdn.gob.mx/landing/img/logoheader.svg" height="25"
+					alt="Gobierno de México">
+			</a>
+
+			<div class="collapse navbar-collapse pl-5 pl-lx-0" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+
+				</ul>
+			</div>
+
+		</nav>
+    
+	&nbsp;
+
+    <!-- Encabezado principal -->
+	<div class="u-noPaddingContainer contenedorGobierno">
+		<div class="container-cabecera">
+			
+			<div class="row no-gutters">
+				<div class="col-md-12" style="max-width:60%">
+					<div class="d-inline-block text-left" >
+
+					<!--
+						<a href="https://www.gob.mx/" target="_blank" id="pleca_1" class='d-none d-xl-inline'>
+							<img loading='lazy' src="img/logos/gobierno_mexico.png" alt="Gobierno de México" class="plecaGob gob" style="width: 200px; height: auto;" >
+						</a>
+					-->
+						 <a href="https://www.gob.mx/sep" target="_blank" id="pleca_2">
+							<img loading='lazy' src="img/logos/educacion.png" alt="Educación" class="plecaGob gob" style="width: 250px; height: auto;">
+						</a>
+						<a href="/"  id="pleca_3">
+							<img loading='lazy' src="img/logos/tecnm.jpg" alt="TecNM" class="plecaTECNM" style="width:20%;height:auto; min-width:80px" />
+						</a>
+					</div>
+				</div>
+			</div>
+
+			
+			<!-- Opciones de accesibilidad -->
+			<div class="contenedorAccesibilidad" style="top: 30%;">  
+				<div class="idiomas text-right">
+					<a href="https://globalpage-prod.webex.com/join?surl=https%3A%2F%2Fsignin.webex.com%2Fcollabs%2F%23%2Fmeetings%2Fjoinbynumber%3FTrackID%3D%26hbxref%3D%26goid%3Dattend-meeting" title="Microsoft Teams" target="_blank">
+
+						<img loading='lazy' style="height:5%;width:5%" src="img/encabezado/microsoft_teams.png" alt="MT">
+					</a>
+
+					<a href="https://login.microsoftonline.com/?whr=tecnm.mx" title="Correo Institucional" target="_blank">
+						<img loading='lazy' style="height:5%;width:5%" src="img/encabezado/correo-icono.png" alt="Buzón">
+					</a>
+
+					<a href="pdf/Calendario_Academico_2019-2020.pdf" title="Calendario Académico" target="_blank">
+						<img loading='lazy' style="height:5%;width:5%" src="img/encabezado/calendario-icono.png" alt="Calendario Académico">
+					</a>
+					
+					<!-- Traductor -->
+						<a href='index.html?idioma=mandarin#googtrans(es|zh-CN)'>
+							<img style='height:5%;width:5%' src='img/encabezado/china-icono.png' title='Mandarín'
+								alt='Idioma Mandarín'>
+						</a>
+						<a href='index.html?idioma=ingles#googtrans(es|en)'>
+							<img style='height:5%;width:5%' src='img/encabezado/usa-icono.png' title='Inglés'
+								alt='Idioma Inglés'>
+						</a>
+						<a href='index.html?idioma=frances#googtrans(es|fr)'>
+							<img style='height:5%;width:5%' src='img/encabezado/francia-icono.png' title='Francés'
+								alt='Idioma Francés'>
+						</a>
+						<a href='index.html?idioma=español#googtrans(es|es)' class='mr-3'>
+							<img style='height:5%;width:5%' src='img/encabezado/mexico-icono.png' title='Español'
+								alt='Idioma Español'>
+						</a>
+					<!--  -->
+					
+					<img loading='lazy' style="height:5%;width:5%;" title="Accesibilidad" src="img/encabezado/ojo-icono.png" alt="Débil Visual" />
+					
+					<a class="btn--accesibilidad contraste">
+						<svg  class="svg-inline--fa fa-adjust fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="adjust" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path  fill="#1B396A" d="M8 256c0 136.966 111.033 248 248 248s248-111.034 248-248S392.966 8 256 8 8 119.033 8 256zm248 184V72c101.705 0 184 82.311 184 184 0 101.705-82.311 184-184 184z" ><title>Contraste</title></path></svg><!-- <i class="fas fa-adjust"></i> -->
+					</a>
+					<a class="btn--accesibilidad aumentaLetra " title="Aumentar letra" style="color:#1B396A" >A+</a>
+					<a class="btn--accesibilidad reduceLetra" title="Disminuir letra"  style="color:#1B396A">A-</a>
+					<a class="btn--accesibilidad resetLetra" title="Restablecer tamaño"  style="color:#1B396A">A </a>
+				</div>
+			</div>
+
+        </div>
+    </div>
+	    
+&nbsp;
+
+	<!-- Menú Blanco -->		
+    <nav class="navbar navbar-expand-xl navbar-light bg-white" id="main_navbar2">
+        
+		<form action='Buscar' class="navbar-brand ml-1" method='POST'>
+			<input class="w-100 h-100 border align-items-center" type="text" name='buscar' placeholder="Buscar" autocomplete='off' />
+			<input type="hidden" name="btn_busqueda" />
+		</form>
+		
+        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> Menú
+        </button>
+
+        <div class="collapse navbar-collapse pl-5 pl-lx-0" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+				
+				<li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown-w1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Nivel 1
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown-w1">
+						<li class="nav-item dropdown">
+							<a class="dropdown-item" href="#"> Nivel 2 </a>
+                        </li>
+						<li class="nav-item dropdown">
+							<a class="dropdown-item" href="#"> Nivel 2 </a>
+                        </li>
+					</ul>
+                </li>
+				
+				<li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown-w2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Nivel 1
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown-w2">
+						<li class="nav-item dropdown">
+							<a class="dropdown-item" href="#"> 
+								Nivel 2 
+							</a>
+                        </li>
+						<li class="nav-item dropdown">
+							<a class="dropdown-item" href="#"> 
+								Nivel 2 
+							</a>
+                        </li>
+						<li class="nav-item dropdown">
+							<a class="dropdown-item" href="#"> 
+								Nivel 2 
+							</a>
+                        </li>
+					</ul>
+                </li>
+				
+				<li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown-w3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Nivel 1
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown-w3">
+						<li class="nav-item dropdown">
+							<a class="dropdown-item" href="#"> Nivel 2 </a>
+                        </li>
+						<li class="nav-item dropdown">
+							<a class="dropdown-item" href="#"> Nivel 2 </a>
+                        </li>
+						<li class="nav-item dropdown">
+							<a class="dropdown-item" href="#"> Nivel 2 </a>
+                        </li>
+						<li class="nav-item dropdown">
+							<a class="dropdown-item" href="#"> Nivel 2 </a>
+                        </li>
+					</ul>
+                </li>
+				
+ 			    <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown-w4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Nivel 1
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown-w4">
+						<li class="nav-item dropdown">
+							<a class="dropdown-item" href="#"> 
+								Nivel 2 
+							</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="dropdown-item" href="#"> 
+								Nivel 2 
+							</a>
+						</li>
+                        <div class="dropdown-divider"></div>
+						<li class="nav-item dropdown dropleft">
+							<a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown-w4-1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Nivel 2
+							</a>
+							<ul class="dropdown-menu left" aria-labelledby="navbarDropdown-w4-1">
+								<li class="nav-item dropdown">
+									<a class="dropdown-item" href="#"> 
+										Nivel 3 
+									</a>
+								</li>
+								<!-- <div class="dropdown-divider"></div> -->
+								<li class="nav-item dropdown">
+									<a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown-w4-1-1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Nivel 3
+									</a>
+									<ul class="dropdown-menu left" aria-labelledby="navbarDropdown-w4-1-1">
+										<li class="nav-item dropdown">
+											<a class="dropdown-item" href="#" target='_blank'>
+												Nivel 4
+											</a>
+										</li>
+										<li class="nav-item dropdown">
+											<a class="dropdown-item" href="#" target='_blank'>
+												Nivel 4
+											</a>
+										</li>
+										<li class="nav-item dropdown">
+											<a class="dropdown-item" href="#" target='_blank'>
+												Nivel 4
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown-w4-1-2" role="button" data-toggle="dropdown"
+										aria-haspopup="true" aria-expanded="false">
+										Nivel 3
+									</a>
+									<ul class="dropdown-menu left" aria-labelledby="navbarDropdown-w4-1-2">
+										<li class="nav-item dropdown">
+											<a class="dropdown-item" href="#" target='_blank'>
+												Nivel 4
+											</a>
+										</li>
+										<li class="nav-item dropdown">
+											<a class="dropdown-item" href="#" target='_blank'>
+												Nivel 4
+											</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+                        </li>
+					</ul>
+                </li>
+				
+				<li class="nav-item"> 
+					<a class="nav-link active" href="#"> Nivel 1 </a> 
+				</li>
+				
+            </ul>
+        </div>
+		
+    </nav>
+			
+	<!-- Menú Azul  -->
+	<nav class="navbar navbar-expand-xl navbar-dark" style='background-color: #1B396A;' id="main_navbar">
+       
+		<button class="navbar-toggler border-0 text-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2"
+            aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> Menú Principal
+        </button>
+
+        <div class="collapse navbar-collapse pl-5 pl-lx-0" id="navbarSupportedContent2">
+            <ul class="navbar-nav mr-auto">
+				
+				<div class='d-none d-lg-block' id="tecnmblanco" style="visibility:hidden; ">
+					<img loading='lazy' alt="TecNM" style="width: 90px; height:auto;" src="img/logos/tecnm_menu.png" />
+				</div>
+				
+				<li class="nav-item active">
+					<a class="nav-link" href="\"> <span class="icon-home"></span></a>
+                </li> 
+				
+				<li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle font-weight-bold" id="navbarDropdown-b1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Nivel 1
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown-b1">
+						<li class="nav-item dropdown">
+							<a class="dropdown-item" href="#"> 
+								Nivel 2 
+							</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="dropdown-item dropdown-toggle" id="navbarDropdown-b1-1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+								Nivel 2 
+							</a>						
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown-b1-1">
+								<li><a class="dropdown-item" href="#"> Nivel 3 </a></li>
+							</ul>
+                        </li>
+					</ul>
+                </li>
+				
+				<li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle font-weight-bold" id="navbarDropdown-b2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Nivel 1
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown-b2">
+						<li class="nav-item dropdown">
+							<a class="dropdown-item" href="#"> Nivel 2 </a>
+                        </li>
+					</ul>
+                </li>
+				
+				<li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle font-weight-bold" id="navbarDropdown-b3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Nivel 1
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown-b3">
+						<li class="nav-item dropdown">
+							<a class="dropdown-item" href="#"> Nivel 2 </a>
+                        </li>
+						<li class="nav-item dropdown">
+							<a class="dropdown-item" href="#"> Nivel 2 </a>
+                        </li>
+					</ul>
+                </li>
+				
+				<li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle font-weight-bold" id="navbarDropdown-b4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Nivel 1
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown-b4">
+						<li class="nav-item dropdown">
+							<a class="dropdown-item" href="#"> Nivel 2 </a>
+                        </li>
+						<li class="nav-item dropdown">
+							<a class="dropdown-item" href="#"> Nivel 2 </a>
+                        </li>
+						<li class="nav-item dropdown">
+							<a class="dropdown-item" href="#"> Nivel 2 </a>
+                        </li>
+					</ul>
+                </li>
+				
+				<li class="nav-item dropdown">
+                    <a class="nav-link active font-weight-bold" href="TecNM_Virtual">
+                        Nivel 1
+                    </a>
+                </li>
+				
+				<li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle font-weight-bold" id="navbarDropdown-b5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Nivel 1
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown-b5">
+						<li class="nav-item dropdown">
+							<a class="dropdown-item" href="#"> Nivel 2 </a>
+                        </li>
+						<li class="nav-item dropdown dropleft">
+							<a class="dropdown-item dropdown-toggle" id="navbarDropdown-b5-1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+								Nivel 2
+							</a>									
+							<ul class="dropdown-menu left" aria-labelledby="navbarDropdown-b5-1">
+								<li><a class="dropdown-item" href="#"> Nivel 3 </a></li>
+								<li><a class="dropdown-item" href="#"> Nivel 3 </a></li>
+								<li><a class="dropdown-item" href="#"> Nivel 3 </a></li>
+							</ul>
+                        </li>
+						<li class="nav-item dropdown">
+							<a class="dropdown-item" href="#"> 
+								Nivel 2 
+							</a>
+                        </li>
+						<li class="nav-item dropdown">
+							<a class="dropdown-item dropdown-toggle" id="navbarDropdown-b5-2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+								Nivel 2								
+							</a>									
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown-b5-2">
+								<li><a class="dropdown-item" href="#"> Nivel 3 </a></li>
+								<li><a class="dropdown-item" href="#"> Nivel 3 </a></li>
+							</ul>
+                        </li>
+					</ul>
+                </li>
+				
+            </ul>
+        </div>
+		
+    </nav>
+	
+	<!-- SLIDER -->
+	<section class='one-time principal border'>
+		
+		<div class='carousel-item active' style='background-image: url("img/slider/TECNM.jpg");'>
+			<a href='img/slider/TECNM.jpg' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+		
+		<div class='carousel-item' style='background-image: url("img/slider/TECNM.jpg");'>
+			<a href='img/slider/TECNM.jpg' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+		
+	</section>
+	
+	<!-- Contenidos (Síguenos, Sitios de Interés) -->
+	<div id='desface' style='display: none;'>
+	<div class='container m-0 m-auto mb-3'>
+	
+		<!-- Comunicación -->
+		<div class='row w-100 justify-content-center bg-light pb-3 m-0'>
+			<section class='container bg-light px-5 mx-0 pb-3 m-auto' id='desface_noticias' style='display: none;'>
+			
+			<div class='row'>
+			
+				<div class='col-12 display-2 text-center my-0 py-3'>
+					<a role='button' href='?vista=Noticias'> 
+
+						Comunicación
+					</a> 
+				</div>
+				
+			</div>
+			<div class='center slider my-0' id='noticias'>
+				
+				<div class='row justify-content-center' style='position: relative;'>
+					
+					<div class='col-12'>
+						<img class='img-fluid mx-auto w-100' style='height: 150px;' src='img/noticias/1/A.jpg' alt='' />
+					</div>
+					
+					<div class='h6 col-12 py-2 mb-4'>
+						Noticias TecNM 1
+					</div>
+					
+					<div class='col-12' style='position: absolute; bottom: 0px;'>
+						<a href='?vista=Noticia&id=1' target='_blank'>
+							LEER MÁS
+						</a>
+					</div>
+					
+				</div>
+				
+				<div class='row justify-content-center' style='position: relative;'>
+					
+					<div class='col-12'>
+						<img class='img-fluid mx-auto w-100' style='height: 150px;' src='img/noticias/2/A.jpg' alt='' />
+					</div>
+					
+					<div class='h6 col-12 py-2 mb-4'>
+						Noticias TecNM 2
+					</div>
+					
+					<div class='col-12' style='position: absolute; bottom: 0px;'>
+						<a href='?vista=Noticia&id=2' target='_blank'>
+							LEER MÁS
+						</a>
+					</div>
+					
+				</div>
+			
+				<div class='row justify-content-center' style='position: relative;'>
+					
+					<div class='col-12'>
+						<img class='img-fluid mx-auto w-100' style='height: 150px;' src='img/noticias/3/A.jpg' alt='' />
+					</div>
+					
+					<div class='h6 col-12 py-2 mb-4'>
+						Noticias TecNM 3
+					</div>
+					
+					<div class='col-12' style='position: absolute; bottom: 0px;'>
+						<a href='?vista=Noticia&id=3' target='_blank'>
+							LEER MÁS
+						</a>
+					</div>
+					
+				</div>
+			
+				<div class='row justify-content-center' style='position: relative;'>
+					
+					<div class='col-12'>
+						<img class='img-fluid mx-auto w-100' style='height: 150px;' src='img/noticias/4/A.jpg' alt='' />
+					</div>
+					
+					<div class='h6 col-12 py-2 mb-4'>
+						Noticias TecNM 4
+					</div>
+					
+					<div class='col-12' style='position: absolute; bottom: 0px;'>
+						<a href='?vista=Noticia&id=4' target='_blank'>
+							LEER MÁS
+						</a>
+					</div>
+					
+				</div>
+			
+				<div class='row justify-content-center' style='position: relative;'>
+					
+					<div class='col-12'>
+						<img class='img-fluid mx-auto w-100' style='height: 150px;' src='img/noticias/5/A.jpg' alt='' />
+					</div>
+					
+					<div class='h6 col-12 py-2 mb-4'>
+						Noticias TecNM 5
+					</div>
+					
+					<div class='col-12' style='position: absolute; bottom: 0px;'>
+						<a href='?vista=Noticia&id=5' target='_blank'>
+							LEER MÁS
+						</a>
+					</div>
+					
+				</div>
+			
+			</div>
+			
+		</section>
+		</div>
+		
+		<br />
+		
+		<!-- Síguenos -->
+		<div class='row w-100 justify-content-center bg-light py-3 m-0'>
+			
+			<p class='col-12 display-2 text-center'> 
+				Síguenos 
+			</p>
+				
+			<div class='media-container-row text-center'>
+
+				<!-- Twitter -->
+				
+				<a class='twitter-timeline' data-lang='es' data-width='350' data-height='525' data-dnt='true' data-theme='light' href='https://twitter.com/TecNM_MX?ref_src=twsrc%5Etfw'></a>
+				
+				<!--Youtube-->
+				<iframe width='350' height='525' src='https://www.youtube.com/embed/1fysHX-IgHo' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+						 
+				<!-- Facebook -->
+				<iframe src='https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSomosTecNM%2F&tabs=timeline&width=350&height=525&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId' width='350' height='525' style='border:none;overflow:hidden' scrolling='no' frameborder='0' allowTransparency='true' allow='encrypted-media'></iframe>
+			  
+			</div>
+		</div>
+		
+		<!-- Anexos -->
+		<div class='row w-100 justify-content-center bg-light py-3 m-0'>
+		<section class='anexos bg-light pb-2 anexo sitios'>
+		
+			<div>
+				<a target='_blank' href='pdf/anexos/pronunciamiento.pdf'>
+					<img loading='lazy' src='img/anexos/pronunciamiento.png' />
+				</a>
+			</div>
+			
+			<div>
+				<a target='_blank' href='pdf/anexos/Protocolo_HSyAS.pdf'>
+					<img loading='lazy' src='img/anexos/protocolo_prevencion.png' />
+				</a>
+			</div>
+			
+			<div>
+				<a target='_blank' href='pdf/anexos/SFP-CE-2019_Codigo_de_Etica.pdf'>
+					<img loading='lazy' src='img/anexos/codigo_etica.png' />
+				</a>
+			</div>
+			
+			<div>
+				<a target='_blank' href='pdf/anexos/M00-CC-01_Codigo_de_Conducta.pdf'>
+					<img loading='lazy' src='img/anexos/codigo_conducta.png' />
+				</a>
+			</div>
+			
+			<div>
+				<a target='_blank' href='pdf/anexos/estrategias_austeridad.pdf'>
+					<img loading='lazy' src='img/anexos/estrategias_austeridad.png' />
+				</a>
+			</div>
+			
+			<div>
+				<a target='_blank' href='pdf/anexos/Convocatoria_Seguro.pdf'>
+					<img loading='lazy' src='img/anexos/convocatoria_seguro.png' />
+				</a>
+			</div>
+			
+			<div>
+				<a target='_blank' href='pdf/anexos/Informe_Anual_Actividades_ CEPCI_TecNM.pdf'>
+					<img loading='lazy' src='img/anexos/comite_etica.png' />
+				</a>
+			</div>
+			
+			<div>
+				<a target='_blank' href='pdf/anexos/decreto_tecnm.pdf'>
+					<img loading='lazy' src='img/anexos/decreto_creacion.png' />
+				</a>
+			</div>
+	
+		</section>
+		</div>
+		
+		<br />
+		
+		<!-- Sitios de Interés -->	
+		<div class='row w-100 justify-content-center bg-light pt-3 m-0'>
+			
+			<p class='display-2'> 
+				Sitios de Interés 
+			</p>
+		
+		</div>
+		<div class='row w-100 justify-content-center bg-light pt-3 m-0'>
+			
+			<div class='col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mb-3'>
+				<a href='https://www.conacyt.gob.mx/' target='_blank'>
+					<img loading='lazy' src='img/interes/CONACYT.png' alt='CONACYT' title='CONACYT' class='img-fluid' />
+				</a>
+			</div>
+			
+			<div class='col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mb-3'>
+				<a href='https://www.conricyt.mx/' target='_blank'>
+					<img loading='lazy' src='img/interes/CONRICYT.png' alt='CONRICYT' title='CONRICYT' class='img-fluid' />
+				</a>
+			</div>
+			
+			<div class='col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mb-3'>
+				<a href='http://www.ifai.org.mx/' target='_blank'>
+					<img loading='lazy' src='img/interes/INAI.png' alt='INAI' title='INAI' class='img-fluid' />
+				</a>
+			</div>
+			
+			<div class='col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mb-3'>
+				<a href='http://consultapublicamx.inai.org.mx:8080/vut-web/?idSujetoObigadoParametro=10009&amp;idEntidadParametro=33&amp;idSectorParametro=21' target='_blank'>
+					<img loading='lazy' src='img/interes/PNT.png' alt='PNT' title='PNT' class='img-fluid' />
+				</a>
+			</div>
+			
+			<div class='col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mb-3'>
+				<a href='Dir_Posgrado'>
+					<img loading='lazy' src='img/interes/contraloria.png' alt='Dir_Posgrado' title='Dir_Posgrado' class='img-fluid' />
+				</a>
+			</div>
+	
+		</div>
+		
+		<br />
+
+	</div>
+	</div>
+	
+
+	<!-- Dirección y teléfono -->
+	<div id='desface_footer' style='display: none;'>
+	<footer class='border bg-tecnm footer'>
+		
+		<div class='row m-0 justify-content-center p-3'>
+			
+			<div class='h6 col-12 col-lg-3 text-center text-lg-left' style='line-height: 1.5;'>
+				
+				<p class='h5 font-weight-bold my-2 mt-lg-5'>
+					Dirección
+				</p>
+				<p>
+					Av. Universidad 1200, Col. Xoco, Ciudad de México, Alcaldía Benito Juárez C.P. 03330
+				</p>
+				
+				<p class='h5 font-weight-bold mt-lg-5'>
+					Contacto
+				</p>
+				<p>
+					<div class='row'>
+						<div class='col-12'>
+							<p>Email: contacto@tecnm.mx</p>
+						</div>
+						<div class='col-12'>
+							<p>Conmutador: 55 36002500</p>
+						</div>
+					</div>
+				</p>
+				
+			</div>
+        
+			<div class='h6 col-12 col-lg-3 text-center text-lg-left' style='line-height: 1.5;'>
+				<p class='h5 font-weight-bold my-2 mt-lg-5'>
+					Enlaces
+				</p>
+				<p>
+					<a style="color:#fff" href="http://portaltransparencia.gob.mx/buscador/search/search.do?method=begin">
+						Portal de Obligaciones de Transparencia
+					</a>
+					<br />
+                    <a style="color:#fff" href="http://inicio.ifai.org.mx/SitePages/ifai.aspx">INAI</a>
+					<br />
+		            <a style="color:#fff" href="mailto:web@tecnm.mx">
+						Buzón de Sugerencias
+					</a>
+				</p>
+				
+				<p class='h5 font-weight-bold my-2'>
+					Número de visitas
+				</p>
+				
+			</div>
+		
+			<div class='h6 col-12 col-lg-6 '>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.168286745534!2d-99.17093298526561!3d19.36186458692447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff2a32fb54cd%3A0xc032b9cecdd00867!2sTecnol%C3%B3gico%20Nacional%20De%20M%C3%A9xico!5e0!3m2!1ses-419!2smx!4v1569527710329!5m2!1ses-419!2smx" width="100%" height="400" frameborder="0" style="border:0;"></iframe>
+			</div>
+			
+			<div class='vh6 col-12 text-center' style='line-height: 1.5;'>
+				<!--© Copyright 2020 TecNM - Todos los Derechos Reservados-->
+				<br />
+				<a class='text-white' href='https://www.gob.mx/cms/uploads/attachment/file/328462/Proyecto_Aviso_Privacidad_TecNM_16052018.pdf' target='_blank'> Aviso de Privacidad </a>
+				<br />
+				Última actualización: 15/01/2025
+			</div>
+			
+		</div>
+		
+	</footer>
+	</div>
+	
+	<!-- Opciones de Accesibilidad -->
+	<script src='assets/files/main/js/index.onload.js' defer></script>
+
+	<!-- Twitter -->
+	<script id='twitter-wjs' src='https://platform.twitter.com/widgets.js' async></script>
+
+	<script src="assets/bootstrap/js/bootstrap.min.js" defer></script>
+	
+	<!-- Configuración de los carrucel -->
+	<script src="js/carrusel-config.js"></script>
+	
+	<script src="js/noticarrusel/slick.js"></script>
+
+	<script src="https://framework-gb.cdn.gob.mx/gm/accesibilidad/js/gobmx-accesibilidad.min.js" defer></script>
+    
+	<!-- Menú Azul - Permite el desglose -->
+	<script src="js/bootnavbar.js"></script>
+	<script src="js/bootnavbar-init.js"></script>
+
+	<!-- GOB MX -->
+	<script
+	  src="https://cdn.tecnm.mx/files/main/Framework/gobmx-integration.js"
+	  data-tecnm-header="#barraGobmx"
+	  data-tecnm-footer="#footer2-7"
+	></script>
+	<script src="https://framework-gb.cdn.gob.mx/gobmx.js" defer></script>
+	
+  </body>
+</html>
