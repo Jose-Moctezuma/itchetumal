@@ -1519,28 +1519,12 @@
 					<a style="color:#fff" href="https://chetumal.tecnm.mx/images/2017/11NOVIEMBRE/Correos-electrnicos-DIR-y-quejassugerencias.pdf">Buzón de Sugerencias</a>
 				</p>
 
-				<p class="h5 font-weight-bold my-2">
-					Número de Visitas
-				</p>
-				<div id="contador-visitas">
-					<img style="border: 0; display: inline;" alt="contador de visitas" src="https://websmultimedia.com/contador-de-visitas.php?id=14086">
-					<span id="ga-visitas" style="display: none;"></span>
-				</div>
-
 				<script async src="https://www.googletagmanager.com/gtag/js?id=G-C1GG3TZC8T"></script>
 				<script>
 					window.dataLayer = window.dataLayer || [];
 					function gtag(){dataLayer.push(arguments);}
 					gtag('js', new Date());
 					gtag('config', 'G-C1GG3TZC8T');
-					window.addEventListener('load', function() {
-						let visits = localStorage.getItem('pageVisits');
-						visits = visits ? parseInt(visits) + 1 : 1;
-						localStorage.setItem('pageVisits', visits);
-						document.getElementById('contador-visitas').innerHTML =
-							'<span style="font-weight:bold;font-size:1.2em;">' + visits + '</span> visitas' +
-							'<br><img style="border:0;display:inline;margin-top:5px;" alt="contador de visitas" src="https://websmultimedia.com/contador-de-visitas.php?id=14086">';
-					});
 				</script>
 			</div>
 
