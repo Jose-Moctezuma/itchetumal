@@ -5,12 +5,11 @@ $(document).ready(function () {
 		infinite: true,
 		speed: 500,
 		slidesToShow: 1,
-		adaptiveHeight: true,
-		adaptiveWidth: true,
 		autoplay: true,
 		autoplaySpeed: 6000,
 		arrows: false,
 		fade: true,
+		cssEase: 'linear',
 		pauseOnHover: true
 	});
 
