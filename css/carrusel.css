@@ -79,13 +79,13 @@
 	width: 8px;
 	height: 8px;
 	line-height: 8px;
-	color: #fff;
+	color: #1B396A;
 	opacity: 0.6;
 }
 
 .one-time .slick-dots li.slick-active button:before {
 	opacity: 1;
-	color: #fff;
+	color: #1B396A;
 }
 
 .carousel-item {
