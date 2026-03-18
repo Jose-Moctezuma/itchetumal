@@ -57,6 +57,37 @@
 	overflow: hidden;
 }
 
+/* Bolitas pequeñas para el carrusel de banners */
+.one-time .slick-dots {
+	bottom: 8px;
+}
+
+.one-time .slick-dots li {
+	width: 8px;
+	height: 8px;
+	margin: 0 2px;
+}
+
+.one-time .slick-dots li button {
+	width: 8px;
+	height: 8px;
+	padding: 0;
+}
+
+.one-time .slick-dots li button:before {
+	font-size: 6px;
+	width: 8px;
+	height: 8px;
+	line-height: 8px;
+	color: #fff;
+	opacity: 0.6;
+}
+
+.one-time .slick-dots li.slick-active button:before {
+	opacity: 1;
+	color: #fff;
+}
+
 .carousel-item {
 	width: 100%;
 	height: 60vh;
