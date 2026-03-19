@@ -1,5 +1,10 @@
 options -indexes
-	
+
+# Permitir iframes de redes sociales (Twitter, YouTube, Facebook)
+<IfModule mod_headers.c>
+    Header always set Content-Security-Policy "default-src 'self' 'unsafe-inline' 'unsafe-eval' https:; frame-src 'self' https://twitter.com https://www.youtube.com https://www.facebook.com https://platform.twitter.com https://syndication.twitter.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://platform.twitter.com https://connect.facebook.net https://www.googletagmanager.com https://www.google-analytics.com https:; img-src 'self' data: https:;"
+</IfModule>
+
 DirectoryIndex index.php
 
 RewriteEngine on
