@@ -57,46 +57,15 @@
 	overflow: hidden;
 }
 
-/* Bolitas pequeñas para el carrusel de banners */
-.one-time .slick-dots {
-	bottom: 8px;
-	z-index: 10;
-	white-space: nowrap;
-	overflow: hidden;
-	width: 100%;
-	text-align: center;
-	padding: 0;
-	display: flex !important;
-	flex-wrap: nowrap;
-	justify-content: center;
-}
-
-.one-time .slick-dots li {
-	width: 12px;
-	height: 12px;
-	margin: 0 4px;
-	display: inline-flex;
-	flex-shrink: 0;
-}
-
-.one-time .slick-dots li button {
-	width: 12px;
-	height: 12px;
-	padding: 0;
-}
-
+/* Bolitas del carrusel de banners - estilos por defecto de slick */
 .one-time .slick-dots li button:before {
-	font-size: 10px;
-	width: 12px;
-	height: 12px;
-	line-height: 12px;
 	color: #aaaaaa;
-	opacity: 1;
+	opacity: 0.75;
 }
 
 .one-time .slick-dots li.slick-active button:before {
-	opacity: 1;
 	color: #1B396A;
+	opacity: 1;
 }
 
 .carousel-item {
